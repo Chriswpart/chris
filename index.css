@@ -22,10 +22,18 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.container #context {
+    border: 1px solid white;
+}
+
 .card {
     margin: 0 auto;
     float: none;
     color: black;
+}
+
+.card-deck {
+    padding-bottom: 40px;
 }
 
 .container {
@@ -34,7 +42,8 @@ body {
     float: none;
     margin: 0 auto;
     margin-top: 80px;
-    padding-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 20px;
     min-height: 100vh;
     width: 100%;
 }
@@ -43,6 +52,12 @@ body {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 100px;
+}
+
+.container h3 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 #links {
